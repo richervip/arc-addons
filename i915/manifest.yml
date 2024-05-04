@@ -1,0 +1,19 @@
+version: 1
+name: i915
+description: "Automatically replace the device ID of i915.ko, up to 10th Gen. (apollolake, geminilake)"
+system: false
+beta: false
+all:
+  install-script: "install.sh"
+  copy: "all"
+apollolake: true
+broadwell: false
+broadwellnk: false
+broadwellnkv2: false
+broadwellntbap: false
+denverton: false
+geminilake: true
+purley: false
+v1000: false
+r1000: false
+epyc7002: false
